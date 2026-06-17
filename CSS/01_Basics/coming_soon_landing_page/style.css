@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body,html
+{
+    background-color: #2647ed;
+    margin: 0;
+    padding: 0;
+   font-family: "Pacifico", cursive;
+    height: 100%;
+}
+
+.container{
+    background:linear-gradient(135deg,#8a2be2,#37e6e6);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height:100%;
+}
+
+.content{
+    text-align: center;
+    background-color: rgba(255,255,255,0.9);
+    padding: 4px;
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: 500px;
+    
+}
+
+h1{
+    color:#333;
+    margin-bottom:30px ;
+}
+
+p{
+    color:#666;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"]{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border:1px solid rebeccapurple;
+    box-shadow: 1px 1px 1px 1px #376be6;
+
+}
+
+input[type="email"]:focus{
+    transform:scale(1.01);
+    outline: none;box-shadow: 1px 2px 3px 1px rgba(5, 80, 253, 0.7);
+
+}
+
+button[type="submit"]{
+    border-radius: 8px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #6587ed;
+    font-weight: bold;
+    border:none;
+    transition: background 0.5s ease-in-out;
+   box-shadow: 1px 2px 1px 1px #373de6;
+
+}
+
+button:hover{
+    background: #2647ed;
+}
